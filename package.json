@@ -9,9 +9,12 @@
   "author": "Runnables Co., Ltd.",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/runnables/eslint-config-runnables.git"
+    "url": "git+https://github.com/runnables/eslint-config-runnables.git",
+    "type": "git"
   },
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.10.2",
