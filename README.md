@@ -1,6 +1,6 @@
 # eslint-config-runnables
-An eslint config for Runnables crew.
+An eslint config for Runnables crew aims at React/Redux development.
 
 ## Usage
 - `yarn` or `npm install`
-- Add `extends: runnables` to your `.eslintrc`
+- `{ "extends": "runnables" }` in `.eslintrc`
