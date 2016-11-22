@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6'
+deploy:
+  provider: npm
+  email: contact@runnables.co.th
+  api_key:
+    secure: "digMA7JlQ8UyjpHwN6WW9icJgYB5o5BKygDz0BEDo08kIw+BOKZHZR2qNNQ3PlrxZvvnkO6vfHpu1XP1Ih6P2lKif2YFv0NgwYR3vKT5aLUA//RABIcC2n33oLJMBucSMITcN7Cr1Y9hdmET4C8XFy+GgGGECNj648H8Vs8r/TEIg6d14qRf+olDZQxLrrrOm3UioknD669ZRfUOuL13JmYIvWdGl9f+VZriGiVc+Hkra/BKBc4Mr0bdy5y47cLfWOl0tvdZuDvkAdXSB2oq4Ft2DW5mcI9SVBRnR6uPM3Tjnaa0nXTA1eFU40NCUWnEJSbK5msZ/Ibnyl+Zak4S0T9l2ENFlw8f/UGxnAAcpGZpjSuz8UIXmGehESHgmQFH3oUfBB4osQuIldbT1zJtMr9KLU0u+OX8u8RWdll6Kz9j1E7J5OAdiBpfPmSGOUhrSLso/RHqb8HQLEDVQJayjvg7MUCBM1czwOkz/J+iLvYCqtsGaD1UOwOjxzZgVrObSyOB3zLc2rWeoRzXwA8DnTgMUADyVj6GwH9/XcXxlWmkbGdqa9mLOS8MMs7RZqdfpM4p1CkXRjtHmiqN+SiKExHInHDm8vG91dtlR99VHXvSGl/J7oX0xoHXgh4SaWaFuYMcNqmQ/5OsH6RNyX4U+vSGWdTxiiBU/UNqK0s51AM="
+  on:
+    tags: true
+    repo: runnables/eslint-config-runnables
