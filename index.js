@@ -61,6 +61,9 @@ module.exports = {
     'no-bitwise': ['error', { 'allow': ['~'] }],
     'no-plusplus': 0,
     'no-underscore-dangle': 0,
+    'no-use-before-define': 0,
+    'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 5 }]
+    // 'arrow-body-style': 0,
   },
   'globals': {
     '__DEVELOPMENT__': true,
@@ -70,5 +73,7 @@ module.exports = {
     '__DEVTOOLS__': true,
     'socket': true,
     'webpackIsomorphicTools': true,
+    "describe": true,
+    "it": true
   },
 };
