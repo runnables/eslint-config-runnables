@@ -60,9 +60,10 @@ module.exports = {
     'no-param-reassign': ['error', { 'props': false }],
     'no-bitwise': ['error', { 'allow': ['~'] }],
     'no-plusplus': 0,
+    'no-prototype-builtins': 0,
     'no-underscore-dangle': 0,
     'no-use-before-define': 0,
-    'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 5 }]
+    'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 5 }],
     // 'arrow-body-style': 0,
   },
   'globals': {
