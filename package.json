@@ -15,7 +15,7 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^7.1.1",
     "eslint": "^3.10.2",
     "eslint-config-airbnb": "^13.0.0",
