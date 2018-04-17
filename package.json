@@ -6,6 +6,9 @@
   "keywords": [
     "eslint"
   ],
+  "scripts": {
+    "test": "echo test",
+  },
   "author": "Runnables Co., Ltd.",
   "license": "MIT",
   "repository": {
