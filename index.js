@@ -12,8 +12,7 @@ module.exports = {
     'react', 'import', 'lodash',
   ],
   'extends': [
-    'eslint-config-airbnb',
-    'plugin:lodash/recommended',
+    'eslint-config-airbnb'
   ],
   'rules': {
     'import/default': 0,
